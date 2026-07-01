@@ -1,0 +1,337 @@
+/* ////////////////////////////////////////////////////////////////////  Part 1  /////////////////////////////////////////////////// */
+.affiliate-section {
+    padding: 90px 20px;
+    background: #fff2e9;
+}
+
+.affiliate-hero {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.affiliate-left {
+    flex: 1;
+}
+
+.badge {
+    display: inline-block;
+    padding: 6px 14px;
+    background: #eefbf3;
+    color: #000;
+    font-weight: 600;
+    border-radius: 20px;
+    margin-bottom: 16px;
+}
+
+.affiliate-left h1 {
+    font-size: 40px;
+    margin-bottom: 14px;
+}
+
+.affiliate-left h1 span {
+    color: #51cc00;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 24px;
+}
+
+.affiliate-buttons {
+    display: flex;
+    gap: 14px;
+}
+
+.primary-btn {
+    background: #51cc00;
+    color: #fff;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.secondary-btn {
+    font-size: 18px;
+    background: orangered;
+    border: 1px solid orangered;
+    color: #fff;
+    padding: 12px 22px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.affiliate-right img {
+    max-width: 420px;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.affiliate-cta {
+    text-align: center;
+    margin: 90px 0 60px;
+}
+
+.affiliate-cta h1 {
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+.affiliate-cta p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.affiliate-cards {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.affiliate-card {
+    text-align: center;
+    border: 2px solid #fff;
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.affiliate-card img {
+    width: 80px;
+    margin-bottom: 12px;
+}
+
+.affiliate-card h2 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.affiliate-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+
+/* ////////////////////////////////////////////////////////////////////  Part 2  /////////////////////////////////////////////////// */
+.how-it-works {
+  padding: 60px 0;
+}
+
+.how-container {
+  display: flex;
+  gap: 60px;
+  max-width: 1200px;
+  margin: auto;
+  align-items: flex-start;
+}
+
+
+.how-left {
+  flex: 1;
+}
+
+.badge {
+  display: inline-block;
+  padding: 6px 14px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.how-left h1 {
+    font-size: 50px;
+}
+
+.subtitle {
+  max-width: 420px;
+  color: #555;
+}
+
+
+.how-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.step-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, .078);
+  padding: 0px 20px 20px 30px;
+  gap: 10px;
+  border-radius: 15px;
+}
+
+.step-number {
+  position: absolute;
+  left: -18px;
+  top: 50%;
+  transform: translateY(-50%);  
+  background: #51cc00; 
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+
+
+/* ////////////////////////////////////////////////////////////////////  Part 3  /////////////////////////////////////////////////// */
+.affiliate-section-two {
+  padding: 60px 20px;
+  background: #fff2e9;
+}
+
+.affiliate-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.affiliate-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.affiliate-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.form-group input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.terms {
+  margin-top: 20px;
+}
+
+.terms-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.terms-label input {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.terms-label a {
+  color: #51cc00;
+  text-decoration: none;
+}
+
+.terms-label a:hover {
+  text-decoration: underline;
+}
+
+
+.submit-btn {
+  margin-top: 20px;
+  padding: 14px 30px;
+  background: #51cc00;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+
+/* ////////////////////////////////////////////////////////////////////  Part 4  /////////////////////////////////////////////////// */
+.faq-section {
+  padding: 80px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+.faq-title {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.faq-item {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 0px 14px;
+  border: 1px solid #e5e5e5;
+  transition: all 0.3s ease;
+}
+.faq-item:hover {
+  border-color: #51cc00;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+.faq-question {
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+}
+.faq-icon {
+  font-size: 22px;
+  font-weight: 700;
+  color: #51cc00;
+}
+.faq-answer {
+  display: block;
+  max-height: 0;
+  overflow: hidden;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-top: 0;
+  transition: max-height 0.35s ease, margin-top 0.35s ease;
+}
+.faq-item.show-answer .faq-answer {
+  max-height: 300px;
+  margin-top: 14px;
+}
+.faq-show-more {
+  margin: 40px auto 0;
+  display: block;
+  padding: 12px 30px;
+  border-radius: 15px;
+  background: #0d6efd;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border: #0d6efd;
+}

@@ -1,0 +1,20 @@
+import Header from "../header";
+import Footer from "../../Footer/footer";
+import GoogleTranslate from "../../common/GoogleTranslate/googleTranslate";
+import "./blog.css";
+
+export default function Blog() {
+  return (
+    <div>
+      <Header />
+      <GoogleTranslate />
+      <div className="blog-page">
+        {/* Heading */}
+        <h1 className="coming-soon">
+          <span>Coming Soon</span>
+        </h1>
+      </div>
+      <Footer />
+    </div>
+  );
+}

@@ -1,0 +1,85 @@
+/* Container */
+.vm-container {
+  max-width: 1000px;
+  margin: 90px auto;
+  padding: 0 18px;
+}
+.para-bold {
+    font-weight: 700;
+    color: #008000;
+}
+
+/* Main titles */
+.vm-title {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+
+/* Underlined center section title */
+.section-heading {
+  text-align: center;
+  margin: 50px 0 25px;
+  font-size: 2rem;
+  font-weight: 700;
+  position: relative;
+}
+
+.section-heading::after {
+  content: "";
+  width: 80px;
+  height: 3px;
+  background: #008000;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 3px;
+}
+
+/* Paragraph styling */
+.vm-text {
+  text-align: center;
+  margin: 12px auto 25px;
+  color: #444;
+  line-height: 1.7;
+  font-size: 1.1rem;
+  max-width: 850px;
+}
+
+/* Card Grid */
+.vm-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 22px;
+}
+
+/* Individual Card */
+.vm-card {
+  background: linear-gradient(145deg, #f4f4f4, #e2e2e2);
+  border-radius: 18px;
+  padding: 18px 20px;
+  box-shadow: 8px 8px 18px #c8c8c8, -8px -8px 18px #ffffff;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  cursor: pointer;
+  transform-style: preserve-3d;
+}
+
+/* Card hover 3D pop */
+.vm-card:hover {
+  transform: translateY(-10px) rotateX(4deg) rotateY(4deg);
+  box-shadow: 14px 14px 26px rgba(0,0,0,0.15),
+              -10px -10px 20px rgba(255,255,255,0.9);
+}
+
+/* Card text */
+.vm-card h3 {
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.vm-card span {
+  color: #333;
+  font-weight: 500;
+  line-height: 1.5;
+}
