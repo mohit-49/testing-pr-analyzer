@@ -1,0 +1,115 @@
+[
+  {
+    "timestamp": "2026-02-24T11:21:53.917Z",
+    "level": "warning",
+    "source": "[ConnectionManager] No saved credentials."
+  },
+  {
+    "timestamp": "2026-02-24T11:21:44.105Z",
+    "level": "warning",
+    "source": "[ConnectionManager] No saved credentials."
+  },
+  {
+    "timestamp": "2026-02-24T11:20:12.223Z",
+    "level": "info",
+    "source": "SettingsPanel",
+    "message": "Connection established successfully"
+  },
+  {
+    "timestamp": "2026-02-24T11:20:12.220Z",
+    "level": "info",
+    "source": "useBinanceData",
+    "message": "Starting connection process..."
+  },
+  {
+    "timestamp": "2026-02-24T11:20:12.219Z",
+    "level": "info",
+    "source": "ConnectionManager",
+    "message": "Valid credentials confirmed via backend",
+    "details": {
+      "success": false,
+      "status": 401,
+      "message": "Invalid Binance credentials for Testnet",
+      "error": null
+    }
+  },
+  {
+    "timestamp": "2026-02-24T11:19:58.901Z",
+    "level": "info",
+    "source": "SettingsPanel",
+    "message": "Auto-connection successful after credentials setup"
+  },
+  {
+    "timestamp": "2026-02-24T11:19:58.901Z",
+    "level": "info",
+    "source": "CredentialsSetup",
+    "message": "Credentials verified successfully"
+  },
+  {
+    "timestamp": "2026-02-24T11:19:58.898Z",
+    "level": "info",
+    "source": "ConnectionManager",
+    "message": "Testing Binance credentials via backend..."
+  },
+  {
+    "timestamp": "2026-02-24T11:18:30.185Z",
+    "level": "warning",
+    "source": "[ConnectionManager] No saved credentials."
+  },
+  {
+    "timestamp": "2026-02-24T11:15:55.847Z",
+    "level": "error",
+    "source": "CredentialsSetup",
+    "message": "Invalid Binance credentials for Testnet",
+    "details": {}
+  },
+  {
+    "timestamp": "2026-02-24T11:11:39.352Z",
+    "level": "error",
+    "source": "CredentialsSetup",
+    "message": "Invalid Binance credentials for Testnet",
+    "details": {}
+  },
+  {
+    "timestamp": "2026-02-24T11:11:20.766Z",
+    "level": "error",
+    "source": "CredentialsSetup",
+    "message": "Invalid Binance credentials for Testnet",
+    "details": {}
+  },
+  {
+    "timestamp": "2026-02-24T11:10:46.931Z",
+    "level": "error",
+    "source": "CredentialsSetup",
+    "message": "Invalid Binance credentials for Testnet",
+    "details": {}
+  },
+  {
+    "timestamp": "2026-02-24T11:10:17.041Z",
+    "level": "error",
+    "source": "CredentialsSetup",
+    "message": "Invalid Binance credentials for Testnet",
+    "details": {}
+  },
+  {
+    "timestamp": "2026-02-24T11:09:19.483Z",
+    "level": "warning",
+    "source": "[ConnectionManager] No saved credentials."
+  },
+  {
+    "timestamp": "2026-02-24T11:09:13.786Z",
+    "level": "info",
+    "source": "ConnectionManager",
+    "message": "Testing Binance credentials via backend..."
+  },
+  {
+    "timestamp": "2026-02-24T11:08:49.677Z",
+    "level": "warning",
+    "source": "[ConnectionManager] No saved credentials."
+  },
+  {
+    "timestamp": "2026-02-24T11:08:49.676Z",
+    "level": "warning",
+    "source": "[ConnectionManager] No token — cannot restore connection."
+  }
+]

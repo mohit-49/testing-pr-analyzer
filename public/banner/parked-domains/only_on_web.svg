@@ -1,0 +1,58 @@
+<svg width="196" height="162" viewBox="0 0 196 162" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 4392">
+<path id="XMLID 10" d="M113.731 149.737L112.027 132H83.9728L82.2691 149.737C81.8716 153.842 79.2025 157.789 75 160.947V161H121V160.947C116.798 157.789 114.128 153.842 113.731 149.737Z" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="XMLID 4" d="M188.086 132.335H7.84461C4.08007 132.335 1 129.251 1 125.482V7.85224C1 4.08351 4.08007 1 7.84461 1H188.086C191.85 1 194.931 4.08351 194.931 7.85224V125.482C194.931 129.308 191.85 132.335 188.086 132.335Z" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="XMLID 179" d="M117 29H158.536" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="XMLID 196" d="M16 54H57.5357" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="XMLID 198" d="M16 69H89" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="XMLID 190" d="M117 50H158.536" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="XMLID 192" d="M117 75H158.536" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="XMLID 180" d="M117 35.4355H141.278" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="XMLID 197" d="M16 60.4355H40.2779" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="XMLID 191" d="M117 56.4355H141.278" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="XMLID 193" d="M117 81H141.278" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="XMLID 187" d="M177.656 57.0201C179.676 57.0201 181.313 55.4486 181.313 53.51C181.313 51.5715 179.676 50 177.656 50C175.637 50 174 51.5715 174 53.51C174 55.4486 175.637 57.0201 177.656 57.0201Z" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="XMLID 195" d="M19 19C20.6569 19 22 17.6568 22 16C22 14.3431 20.6569 13 19 13C17.3431 13 16 14.3431 16 16C16 17.6568 17.3431 19 19 19Z" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="XMLID 194" d="M177.656 81.0201C179.676 81.0201 181.313 79.4486 181.313 77.51C181.313 75.5715 179.676 74 177.656 74C175.637 74 174 75.5715 174 77.51C174 79.4486 175.637 81.0201 177.656 81.0201Z" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="XMLID 11" d="M185.278 110.397L185.278 10.6528L10.6526 10.6528L10.6526 110.397L185.278 110.397Z" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="XMLID 9" d="M90.5063 121.219H105.717" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="Rectangle 3588">
+<mask id="path-17-inside-1_929_2037" fill="white">
+<path d="M113 11H185V110H113V11Z"/>
+</mask>
+<path d="M114 110V11H112V110H114Z" fill="black" mask="url(#path-17-inside-1_929_2037)"/>
+</g>
+<g id="Rectangle 3589">
+<mask id="path-19-inside-2_929_2037" fill="white">
+<path d="M113 11H185V22H113V11Z"/>
+</mask>
+<path d="M185 21H113V23H185V21Z" fill="black" mask="url(#path-19-inside-2_929_2037)"/>
+</g>
+<path id="Rectangle 3592" d="M11 22H113M113 43H68.5H46.25H23.7064M11 43H16" stroke="black"/>
+<path id="XMLID 189" d="M23.5 43C23.5 44.933 21.933 46.5 20 46.5C18.067 46.5 16.5 44.933 16.5 43C16.5 41.067 18.067 39.5 20 39.5C21.933 39.5 23.5 41.067 23.5 43Z" stroke="black"/>
+<g id="Rectangle 3593">
+<mask id="path-23-inside-3_929_2037" fill="white">
+<path d="M94 14H106V18H94V14Z"/>
+</mask>
+<path d="M94 14V13H93V14H94ZM106 14H107V13H106V14ZM106 18V19H107V18H106ZM94 18H93V19H94V18ZM94 15H106V13H94V15ZM105 14V18H107V14H105ZM106 17H94V19H106V17ZM95 18V14H93V18H95Z" fill="black" mask="url(#path-23-inside-3_929_2037)"/>
+</g>
+<g id="Rectangle 3594">
+<mask id="path-25-inside-4_929_2037" fill="white">
+<path d="M16 79H28V83H16V79Z"/>
+</mask>
+<path d="M16 79V78H15V79H16ZM28 79H29V78H28V79ZM28 83V84H29V83H28ZM16 83H15V84H16V83ZM16 80H28V78H16V80ZM27 79V83H29V79H27ZM28 82H16V84H28V82ZM17 83V79H15V83H17Z" fill="black" mask="url(#path-25-inside-4_929_2037)"/>
+</g>
+<g id="Rectangle 3590">
+<mask id="path-27-inside-5_929_2037" fill="white">
+<path d="M117 35H181V43H117V35Z"/>
+</mask>
+<path d="M181 42.4H117V43.6H181V42.4Z" fill="black" mask="url(#path-27-inside-5_929_2037)"/>
+</g>
+<g id="Rectangle 3591">
+<mask id="path-29-inside-6_929_2037" fill="white">
+<path d="M117 59H181V67H117V59Z"/>
+</mask>
+<path d="M181 66.4H117V67.6H181V66.4Z" fill="black" mask="url(#path-29-inside-6_929_2037)"/>
+</g>
+</g>
+</svg>

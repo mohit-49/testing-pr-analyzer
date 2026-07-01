@@ -1,0 +1,105 @@
+/* Overlay (center modal) */
+.settings-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(6px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+/* Modal */
+.settings-modal {
+    background: #fff;
+    padding: 24px;
+    width: 380px;
+    border-radius: 8px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    height: 230px;
+}
+
+/* Icon center */
+.logout-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    color: red;
+}
+
+/* Title */
+.logout-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Close button */
+.close-icon {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    cursor: pointer;
+    size: 10px;
+}
+
+/* Main text */
+.logout-text {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.logout-text span {
+    font-weight: 600;
+}
+
+/* Subtext */
+.logout-subtext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.logout-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Buttons styling */
+.btn {
+    padding: 8px 14px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+}
+
+/* Cancel */
+.btn.cancel {
+    background: #fff;
+    color: orangered;
+    border: 1px solid orangered;
+    font-weight: 400;
+}
+
+/* Logout */
+.btn.logout {
+    background: red;
+    color: white;
+    font-weight: 400;
+}

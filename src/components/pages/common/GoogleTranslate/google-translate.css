@@ -1,0 +1,52 @@
+
+.lang-wrapper {
+  position: fixed;
+  top: 90px;
+  right: 4px;
+  z-index: 9999;
+}
+
+.lang-btn {
+  background: #51cc00;
+  border: none;
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.lang-select {
+  position: absolute;
+  top: 56px;
+  right: 0;
+  padding: 8px 12px;
+  min-width: 180px;
+  border-radius: 10px;
+  border: none;
+  background: #51cc00;
+  color: #ffffff;
+  font-size: 14px;
+  outline: none;
+  box-shadow: 0 10px 25px rgba(0, 128, 0, 0.4);
+  cursor: pointer;
+}
+
+.lang-select option {
+  background: #51cc00;
+  color: #ffffff;
+}
+
+.goog-te-banner-frame {
+  display: none !important;
+}
+
+.goog-te-gadget {
+  display: none !important;
+}
+
+body {
+  top: 0 !important;
+}

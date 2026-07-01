@@ -1,0 +1,84 @@
+.appraisal-page {
+  min-height: 70vh;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.coming-soon {
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 18px;
+  color: #FFA500;
+  text-shadow:
+    1px 1px 0 #000,
+    2px 2px 0 #111,
+    3px 3px 0 #000;
+}
+
+.coming-soon span {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 4px solid #FFA500;
+  animation:
+    typing 2.5s steps(12, end),
+    blink 0.7s step-end infinite;
+}
+
+.appraisal-text {
+  max-width: 650px;
+  font-size: 1.15rem;
+  color: #444;
+  line-height: 1.7;
+  margin-bottom: 26px;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.subscribe-form input {
+  min-width: 220px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  outline: none;
+  transition: box-shadow 0.2s ease;
+}
+
+.subscribe-form input:focus {
+  box-shadow: 0 0 0 3px #FFA500;
+}
+
+.subscribe-form button {
+  font-size: 20px;
+  padding: 12px 22px;
+  border-radius: 10px;
+  border: none;
+  background: #FFA500;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.subscribe-form button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px #FFA500;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}

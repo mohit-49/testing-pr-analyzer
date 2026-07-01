@@ -1,0 +1,181 @@
+
+
+.section-part {
+    margin-top: 80px;
+     text-align: center;
+}
+
+section h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #222;
+}
+
+section p {
+  color: #666;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.7;
+  word-break: break-word;
+}
+
+/* Container for the cards */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Card styling */
+.card {
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  6px 6px 12px #b8b8b8,
+               -6px -6px 12px #ffffff;
+  border-radius: 15px;
+  padding: 20px 30px;
+  min-width: 180px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  user-select: none;
+  perspective: 1000px;
+}
+
+/* 3D subtle tilt effect on hover */
+.card:hover {
+  box-shadow: 8px 8px 20px #999999,
+              -8px -8px 20px #ffffff;
+  transform: translateY(-8px) rotateX(5deg) rotateY(5deg);
+}
+
+
+
+
+
+.user-card {
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  padding: 20px;
+  width: 220px;
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.user-card:hover {
+  box-shadow: 0 4px 16px rgba(44, 44, 84, 0.3);
+}
+
+.user-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.user-card h3 {
+  font-size: 1.2rem;
+  margin: 0 0 8px;
+  color: #2c2c54;
+}
+
+.user-card p {
+  font-size: 0.9rem;
+  margin: 0 0 12px;
+  color: #666;
+}
+
+.linkedin-link {
+  font-size: 0.85rem;
+  color: #0a66c2;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.linkedin-link:hover {
+  text-decoration: underline;
+}
+
+.ecosystem-community {
+  display: flex;
+  align-items: stretch;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Card layout */
+.eco-card {
+  flex: 1;
+  min-width: 320px;
+  max-width: 450px;
+  background: #fff;
+  border-radius: 18px;
+  padding: 25px 28px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover elevation */
+.eco-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 30px rgba(0,0,0,0.12);
+}
+
+/* Headings centered + underline */
+.eco-card h1 {
+  text-align: center;
+  font-size: 1.9rem;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.eco-card h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin: 10px auto 0;
+  background: #008000;
+  border-radius: 2px;
+}
+
+/* Lists */
+.eco-card ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 18px;
+}
+
+.eco-card ul li {
+  margin-bottom: 12px;
+  line-height: 1.5;
+  color: #444;
+  font-weight: 500;
+  position: relative;
+  padding-left: 18px;
+}
+
+/* Bullet style */
+.eco-card ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #008000;
+  font-size: 18px;
+}
+
+.para-founders {
+  text-align: center;
+  font-weight: 500;
+  color:#008000;
+  font-size: 20px;
+}
