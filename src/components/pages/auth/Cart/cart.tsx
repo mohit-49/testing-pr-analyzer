@@ -30,6 +30,18 @@ export default function Cart() {
                     ✓ Success
                     <div className="bar"></div>
                 </div>
+
+                 <div className="step">
+                    ✓ pending
+                    <div className="bar"></div>
+                </div>
+
+                 <div className="step">
+                    ✓ cancel
+                    <div className="bar"></div>
+                </div>
+
+
             </div>
 
             <div className="empty-cart">
