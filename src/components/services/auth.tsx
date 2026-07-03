@@ -52,6 +52,7 @@ export const loginUser = async (object: any) => {
     }
 }
 
+// forgot the user
 export const forgotUser = async (object: any) => {
     try {
         const url = `${BACKEND_URL}${API_ENDPOINTS.FORGOT_PASSWORD}`;
@@ -73,6 +74,7 @@ export const forgotUser = async (object: any) => {
     }
 }
 
+// reset the user
 export const resetUser = async (object: any) => {
     try {
         const url = `${BACKEND_URL}${API_ENDPOINTS.RESET_PASSWORD}`;
@@ -95,7 +97,7 @@ export const resetUser = async (object: any) => {
     }
 }   
 
-
+// find the which user login
 export const getUser = async () => {
     try {
         const url = `${BACKEND_URL}${API_ENDPOINTS.GET_PROFILE}`;

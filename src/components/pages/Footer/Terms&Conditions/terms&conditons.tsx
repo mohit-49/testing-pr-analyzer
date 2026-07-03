@@ -185,6 +185,13 @@ export default function TermsConditons() {
                 <p>OPERATED BY MAGIC FLY LABS LIMITED</p>
                 <p>R/O GRANVILLE CIRCUIT, TSIM TSA SUI, HK.</p>
                 <p><a href="/"><span className="span-blue">www.infinitydomains.io</span></a></p>
+
+                <h2>DISCLAIMER</h2>
+                <p>* By using Infinity Domains, you agree to abide by these Terms and Conditions.</p>
+                <p>* This document may be customized according to the services offered by Infinity Domains.</p>
+                <h2>DISCLAIMER</h2>
+                <p>* By using Infinity Domains, you agree to abide by these Terms and Conditions.</p>
+                <p>* This document may be customized according to the services offered by Infinity Domains.</p>
             </div>
             </section>
             <Footer />
