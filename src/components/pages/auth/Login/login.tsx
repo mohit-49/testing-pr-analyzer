@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { Eye, EyeOff, MailPlus, LockKeyhole, LogInIcon, Wallet, } from "lucide-react";
-import "./login.css";
+import "./login.module.css";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import GoogleTranslate from "../../common/GoogleTranslate/googleTranslate";

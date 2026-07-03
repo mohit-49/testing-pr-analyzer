@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from "react";
 import Link from "next/link";
-import "./forgot-password.css";
+import "./forgot-password.module.css";
 import { Send, MailPlus } from "lucide-react";
 import GoogleTranslate from "../../common/GoogleTranslate/googleTranslate";
 import { useRouter } from "next/navigation";

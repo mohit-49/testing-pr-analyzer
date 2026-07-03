@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { Eye, EyeOff, LockKeyhole } from "lucide-react";
-import "./new-password.css";
+import "./new-password.module.css";
 import Link from "next/link";
 import GoogleTranslate from "../../common/GoogleTranslate/googleTranslate";
 import { showWarningToast, showErrorToast, showSuccessToast } from "@/components/pages/common/ToastMessages/toastUtils";
