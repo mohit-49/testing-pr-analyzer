@@ -63,7 +63,7 @@ export const getUser = () => async (dispatch: Dispatch) => {
     if (response.success) {
       dispatch({
         type: CONSTANTS.GET_USER_SUCCESSFULLY,
-        payload: response.data, // 🔥 VERY IMPORTANT
+        payload: response.data,
       });
       return response;
     }
