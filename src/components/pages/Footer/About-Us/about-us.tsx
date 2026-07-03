@@ -125,9 +125,7 @@ export default function AboutUs() {
                         <img src="/partners/avatar5.png" alt="User 1" className="user-image" />
                         <h3>Taniya Mittal</h3>
                         <p>SEO</p>
-                        <a href="/" className="linkedin-link">
-                            LinkedIn
-                        </a>
+                        <a href="/" className="linkedin-link">LinkedIn</a>
                     </div>
                 </div><br />
 

@@ -185,7 +185,8 @@ export default function TermsConditons() {
                 <p>OPERATED BY MAGIC FLY LABS LIMITED</p>
                 <p>R/O GRANVILLE CIRCUIT, TSIM TSA SUI, HK.</p>
                 <p><a href="/"><span className="span-blue">www.infinitydomains.io</span></a></p>
-            </div>
+
+               </div>
             </section>
             <Footer />
         </div>

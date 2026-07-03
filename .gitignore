@@ -6,5 +6,3 @@ node_modules/
 *.log
 .DS_Store
 out/
-
-# testing the code env with function ui 
