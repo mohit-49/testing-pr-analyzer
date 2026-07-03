@@ -12,7 +12,6 @@ export default function Event() {
             {/* Philosophy Section */}
             <section className="event-section">
                 <h1 className="event-title">🧭 Our Philosophy Behind Events</h1>
-                <h1 className="event-title">🧭 Our Philosophy Behind Events</h1>
                 <p className="event-text">
                     We believe Web3 shouldn’t be exclusive or confusing – it should be
                     accessible, inspiring, and fun. Our events focus on community-first

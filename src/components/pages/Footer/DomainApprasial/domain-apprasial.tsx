@@ -30,6 +30,14 @@ export default function DomainApprasial() {
           <button type="submit">Subscribe</button>
         </form>
 
+ <p className="appraisal-text">
+          Curious to know how much your domain name is worth?  
+          Stay tuned — our domain appraisal tool will be available soon!
+        </p>
+         <p className="appraisal-text">
+          Curious to know how much your domain name is worth?  
+          Stay tuned — our domain appraisal tool will be available soon!
+        </p>
       </div>
 
       <Footer />

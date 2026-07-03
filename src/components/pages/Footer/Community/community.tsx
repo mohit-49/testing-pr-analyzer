@@ -82,6 +82,8 @@ export default function Community() {
           <button className="primary-btn">Join the Community</button>
           <button className="secondary-btn">Follow on Twitter</button>
           <button className="secondary-btn">Read Blog</button>
+          <button className="secondary-btn">new one</button>
+          <button className="secondary-btn">new two</button>
         </div>
 
       </div>
