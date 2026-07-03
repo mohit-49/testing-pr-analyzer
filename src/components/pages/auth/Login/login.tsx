@@ -170,7 +170,6 @@ const Login = (props: any) => {
         </div>
 
         <div className="third-party-login">
-          {/* 👇 hidden google original button */}
           <div style={{ display: "none" }}>
             <GoogleLogin
               onSuccess={async (credentialResponse) => {

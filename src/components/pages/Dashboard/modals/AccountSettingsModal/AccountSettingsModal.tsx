@@ -27,7 +27,6 @@ const AccountSettingsModal = ({
           <p>Loading profile...</p>
         ) : (
           <>
-            {/* AVATAR */}
             <div className="avatar-section">
               <img src={avatarUrl} className="avatar-preview" alt="User Avatar" />
               <label className="avatar-upload">
