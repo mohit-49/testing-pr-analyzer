@@ -16,7 +16,7 @@
     align-items: flex-start;
     justify-content: space-between;
 }
-
+/* 
 .footer-logo-section {
     cursor: pointer;
     display: flex;
@@ -45,6 +45,36 @@
     font-weight: 600;
     letter-spacing: 0.2px;
     color: black;
+} */
+
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.header-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-right: 0;
+}
+
+.site-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #51CC00;
+  line-height: 1.00;
+  margin-left: -4px;
+  letter-spacing: 0.2px;
+}
+
+.site-subtitle {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  color: orangered;
 }
 
 .footer-description {

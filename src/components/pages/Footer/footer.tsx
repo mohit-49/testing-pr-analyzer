@@ -6,12 +6,18 @@ export default function Footer() {
   return (
     <footer className="site-footer">
       <div className="footer-top">
-        <Link href="/">
+        {/* <Link href="/">
           <div className="footer-logo-section">
             <img src="/group1-removebg-preview.png" alt="Logo" className="footer-logo" />
             <strong className="footer-title">Infinity<br /><span className="footer-subtitle">Domains </span></strong>
           </div>
-        </Link>
+        </Link> */}
+         <Link href="/">
+        <div className="header-left">
+          <img src="/group1-removebg-preview.png" alt="Logo" className="header-logo" />
+          <strong className="site-title">Infinity<br /><span className="site-subtitle">Domains</span></strong>
+        </div>
+      </Link>
         <p className="footer-description">
           Web3 digital identity management platform & Marketplace: all in one place
         </p>

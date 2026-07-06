@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import GoogleTranslate from "../../common/GoogleTranslate/googleTranslate";
-import "./cart.module.css";
+import "./cart.css";
 
 export default function Cart() {
     return (
@@ -28,6 +28,16 @@ export default function Cart() {
 
                 <div className="step">
                     ✓ Success
+                    <div className="bar"></div>
+                </div>
+
+                <div className="step">
+                    ✓ pedding
+                    <div className="bar"></div>
+                </div>
+
+                <div className="step">
+                    ✓ cancel
                     <div className="bar"></div>
                 </div>
             </div>

@@ -28,7 +28,7 @@ const PUBLIC_ROUTES = [
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  // ✅ allow next internals + public assets
+  // allow next internals + public assets
   if (
     pathname.startsWith("/_next") ||
     pathname.startsWith("/favicon") ||
@@ -47,7 +47,7 @@ export function middleware(request: NextRequest) {
 
   const token = request.cookies.get("token")?.value;
 
-  // 🔐 private route protection
+  // private route protection
   if (!isPublicRoute && !token) {
     return NextResponse.redirect(
       new URL("/auth/login", request.url)

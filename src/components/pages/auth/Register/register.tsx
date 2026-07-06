@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { injectModels } from "@/components/redux/injectmodels";
 import { Eye, EyeOff, MailPlus, LockKeyhole, UserPlus, User, Wallet, ShieldCheck } from "lucide-react";
-import "./register.module.css";
+import "./register.css";
 import Link from "next/link";
 import GoogleTranslate from "../../common/GoogleTranslate/googleTranslate";
 import { showWarningToast, showErrorToast, showSuccessToast } from "@/components/pages/common/ToastMessages/toastUtils";

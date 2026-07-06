@@ -5,7 +5,6 @@ export const API_ENDPOINTS = {
     VERIFY_EMAIL: "/api/auth/verify",
     FORGOT_PASSWORD: "/api/auth/forgotpassword",
     RESET_PASSWORD: "/api/auth/resetpassword/:token",
-
     GET_PROFILE: "/api/auth/profile",
     UPDATE_PROFILE: "/api/auth/profile",
 }

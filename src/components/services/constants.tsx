@@ -1,7 +1,6 @@
 export const ResponseEnum = {
     SUCCESS: true,
     STATUS: 200,
-
     STATUS_BAD_REQUEST: 400,
     STATUS_UNAUTHORIZED: 401,
     STATUS_FORBIDDEN: 403,
