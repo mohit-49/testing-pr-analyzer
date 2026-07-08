@@ -88,7 +88,6 @@ const GoogleTranslate = () => {
         </select>
       )}
 
-      {/* hidden google container */}
       <div id="google_translate_element" style={{ display: 'none' }} />
     </div>
   )

@@ -277,6 +277,3 @@ const Register = (props: any) => {
 
 }
 export default injectModels(["auth"])(Register)
-
-
-// this is register page for user 

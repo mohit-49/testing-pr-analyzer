@@ -14,7 +14,6 @@ export default function Cart() {
                 </div>
             </Link>
 
-            {/* TOP STEP BAR */}
             <div className="cart-steps">
                 <div className="step active">
                     ✓ Cart
@@ -28,16 +27,6 @@ export default function Cart() {
 
                 <div className="step">
                     ✓ Success
-                    <div className="bar"></div>
-                </div>
-
-                <div className="step">
-                    ✓ pedding
-                    <div className="bar"></div>
-                </div>
-
-                <div className="step">
-                    ✓ cancel
                     <div className="bar"></div>
                 </div>
             </div>
