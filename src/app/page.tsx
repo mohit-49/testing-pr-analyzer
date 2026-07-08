@@ -101,7 +101,8 @@ export default function Home({ hideHeader = false }) {
             <a href="/">.bnb</a>
             <a href="/">.sol</a>
             <a href="/">.austin</a>
-            <a href="/">.pudgy</a>           
+            <a href="/">.pudgy</a>  
+            <a href="/">.mohit</a>          
           </div>
         </div>
 

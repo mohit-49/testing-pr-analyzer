@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import GoogleTranslate from "../../common/GoogleTranslate/googleTranslate";
-import "./cart.module.css";
+import "./cart.css";
 
 export default function Cart() {
     return (
@@ -14,7 +14,6 @@ export default function Cart() {
                 </div>
             </Link>
 
-            {/* TOP STEP BAR */}
             <div className="cart-steps">
                 <div className="step active">
                     ✓ Cart

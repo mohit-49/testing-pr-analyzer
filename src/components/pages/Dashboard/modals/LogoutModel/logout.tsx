@@ -21,30 +21,24 @@ const LogoutConfirmModal = ({ open, onClose }: any) => {
     <div className="settings-overlay">
       <div className="settings-modal logout-modal">
 
-        {/* Center Icon */}
         <div className="logout-icon">
           <Power size={30} />
         </div>
 
-        {/* Title */}
         <h2 className="logout-title">Logout Confirmation</h2>
 
-        {/* Close */}
         <X className="close-icon" onClick={onClose} />
 
-        {/* Text */}
         <p className="logout-text">
           Are you sure you want to sign out of
           <span> Infinity Domains?</span>
         </p>
 
-        {/* Sub text */}
         <div className="logout-subtext">
           <ChevronsRight />
           <p>Please select an option below to proceed</p>
         </div>
 
-        {/* Actions */}
         <div className="logout-actions">
           <button className="btn cancel" onClick={onClose}>
             Cancel
@@ -53,7 +47,6 @@ const LogoutConfirmModal = ({ open, onClose }: any) => {
             Confirm
           </button>
         </div>
-
       </div>
     </div>
   );

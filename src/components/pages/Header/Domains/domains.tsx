@@ -177,11 +177,7 @@ export default function Domains() {
               <span>.Polygon</span>
               <span>.NFT</span>
               <span>.Sol</span>
-              <span>.Tez</span>
-              <span>.</span>
-              <span>.</span>
-              <span>.</span>
-              <span>.</span>
+              <span>.Tez</span>              
             </>
           )}
         </div>

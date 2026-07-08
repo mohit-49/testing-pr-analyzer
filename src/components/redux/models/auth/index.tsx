@@ -6,7 +6,6 @@ const authObj = {
     login: (requestObject: any) => store.dispatch(Action.login(requestObject)),
     forgot: (requestObject: any) => store.dispatch(Action.forgot(requestObject)),
     reset: (requestObject: any) => store.dispatch(Action.reset(requestObject)),
-
     getUser: () => store.dispatch(Action.getUser()),
 }
 

@@ -36,6 +36,11 @@ export default function ParkedDomains() {
             answer:
                 "If you do not renew your renewable parked domain, it will expire and become available for registration by someone else. You will lose any revenue that you were generating from the domain.",
         },
+        {
+            question: "Is my source code secure?",
+            answer:
+                "Absolutely. Your data is processed securely, and we follow industry best practices to protect your code and maintain privacy."
+        },
     ];
 
     const handleClick = (index: number) => {

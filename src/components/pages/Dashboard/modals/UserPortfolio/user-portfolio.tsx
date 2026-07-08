@@ -57,7 +57,6 @@ const UserPortfolio = (props: any) => {
 
   return (
     <>
-      {/* ACCOUNT HEADER */}
       <div className="portfolio">
         <Link href="/">
           <div className="portfolio-left">
@@ -98,7 +97,6 @@ const UserPortfolio = (props: any) => {
                 </div>
               </div>
               <hr />
-              {/* <div className="account-item"><Settings size={18} /><span>Account Settings</span></div> */}
               <div className="account-item" onClick={() => { setSettingsOpen(true); setOpen(false); }}>
                 <Settings size={18} />
                 <span>Account Settings</span>
