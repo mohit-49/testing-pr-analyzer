@@ -9,7 +9,6 @@ export default function MarketPlace() {
       <Header />
       <GoogleTranslate />
       <div className="market-page">
-        {/* Heading */}
         <h1 className="coming-soon">
           <span>Coming Soon</span>
         </h1>

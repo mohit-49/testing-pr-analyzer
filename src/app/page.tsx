@@ -102,8 +102,9 @@ export default function Home({ hideHeader = false }) {
             <a href="/">.sol</a>
             <a href="/">.austin</a>
             <a href="/">.pudgy</a>  
-            <a href="/">.mohit</a>          
-          </div>
+            <a href="/">.mohit</a>
+            <a href="/">.crypto</a>  
+            </div>
         </div>
 
         {/* Part 3  */}
@@ -132,6 +133,10 @@ export default function Home({ hideHeader = false }) {
             </div>
             <div className="feature-card">
               <h1>Wallet ID</h1>
+              <img src="/banner/carousel/carousel_wallet.svg" alt="Wallet ID" />
+            </div>
+            <div className="feature-card">
+              <h1>Wallet ID 2</h1>
               <img src="/banner/carousel/carousel_wallet.svg" alt="Wallet ID" />
             </div>
           </div>
@@ -319,27 +324,27 @@ export default function Home({ hideHeader = false }) {
               <div className="card card1">
                 <img src="/banner/community/bnb.svg" alt="wallet" />
                 <h3>wallet</h3>
-                <span>5k+</span>
+                <span>0k+</span>
               </div>
               <div className="card card2">
                 <img src="/banner/community/polygon.svg" alt="Polygon" />
                 <h3>Polygon</h3>
-                <span>8k+</span>
+                <span>0k+</span>
               </div>
               <div className="card card3">
                 <img src="/banner/community/bnb.svg" alt="Last Month Domain Registered" />
                 <h3>Last Month Domain Registered</h3>
-                <span>25000+</span>
+                <span>00000+</span>
               </div>
               <div className="card card4">
                 <img src="/banner/community/crypto.svg" alt="Crypto" />
                 <h3>Crypto</h3>
-                <span>4k+</span>
+                <span>0k+</span>
               </div>
               <div className="card card5">
                 <img src="/banner/community/nft.svg" alt="NFT" />
                 <h3>NFT</h3>
-                <span>8k+</span>
+                <span>0k+</span>
               </div>
             </div>
           </div>
@@ -374,23 +379,7 @@ export default function Home({ hideHeader = false }) {
         {/* Part 15  */}
         <div className="testimonial-section">
           <h2>What our users say about us</h2>
-          <div className="testimonial-marquee">
-            <div className="testimonial-card">
-              <div className="stars-and-img">
-                <div className="stars">
-                  <img src="/domain/star.svg" alt="Star" />
-                  <img src="/domain/star.svg" alt="Star" />
-                  <img src="/domain/star.svg" alt="Star" />
-                  <img src="/domain/star.svg" alt="Star" />
-                  <img src="/domain/star.svg" alt="Star" />
-                </div>
-                <img src="/domain/testimonial.svg" alt="Testimonial Icon" className="testimonial-icon" />
-              </div>
-              <p className="testimonial-text">Thanks to Infinity Domains, I found a domain that perfectly aligns with my brand's vision. Infinity Domains exceeded
-                my expectations with their comprehensive database of Web 3 domains. Finding a memora....</p>
-              <p className="testimonial-name">Mohit Sharma</p>
-              <span className="testimonial-role">Full Stack Developer</span>
-            </div>
+          <div className="testimonial-marquee">            
             <div className="testimonial-card">
               <div className="stars-and-img">
                 <div className="stars">

@@ -5,13 +5,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="site-footer">
-      <div className="footer-top">
-        {/* <Link href="/">
-          <div className="footer-logo-section">
-            <img src="/group1-removebg-preview.png" alt="Logo" className="footer-logo" />
-            <strong className="footer-title">Infinity<br /><span className="footer-subtitle">Domains </span></strong>
-          </div>
-        </Link> */}
+      <div className="footer-top">       
          <Link href="/">
         <div className="header-left">
           <img src="/group1-removebg-preview.png" alt="Logo" className="header-logo" />
