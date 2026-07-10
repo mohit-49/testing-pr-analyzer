@@ -6,3 +6,95 @@ node_modules/
 *.log
 .DS_Store
 out/
+
+# ===========================
+# Dependencies
+# ===========================
+node_modules/
+
+# ===========================
+# Next.js
+# ===========================
+.next/
+out/
+
+# ===========================
+# Build Output
+# ===========================
+dist/
+build/
+coverage/
+
+# ===========================
+# Environment Files
+# ===========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# ===========================
+# Logs
+# ===========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===========================
+# Package Managers
+# ===========================
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# (Keep ONE lock file if your team uses it.
+# Remove the above line for the package manager you use.)
+
+# ===========================
+# Cache
+# ===========================
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+
+# ===========================
+# Testing
+# ===========================
+coverage/
+.nyc_output/
+
+# ===========================
+# IDE / Editor
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+
+# ===========================
+# Operating System Files
+# ===========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ===========================
+# Temporary Files
+# ===========================
+tmp/
+temp/
+*.tmp
+
+# ===========================
+# Misc
+# ===========================
+.vercel/
+.turbo/

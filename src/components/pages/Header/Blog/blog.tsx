@@ -9,7 +9,6 @@ export default function Blog() {
       <Header />
       <GoogleTranslate />
       <div className="blog-page">
-        {/* Heading */}
         <h1 className="coming-soon">
           <span>Coming Soon</span>
         </h1>

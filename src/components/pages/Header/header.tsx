@@ -64,7 +64,7 @@ export default function Header() {
           className={pathname === "/auth/cart" ? "active-link cart-icon" : "cart-icon"}
           onClick={() => handleNav("/auth/cart")}
         >
-          <ShoppingCart size={26} />
+          <ShoppingCart size={24} />
         </span>
       </div>
 

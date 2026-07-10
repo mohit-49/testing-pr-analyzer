@@ -1,10 +1,8 @@
 .about-container {
   max-width: 1050px;
-  /* margin: 90px auto; */
   margin: 90px 40px;
 }
 
-/* Headings */
 .title {
   text-align: left;
   font-size: 2.4rem;
@@ -19,7 +17,6 @@
 }
 
 .section-title::after {
-  /* content: ""; */
   width: 70px;
   height: 3px;
   background: #6366f1;
@@ -28,7 +25,6 @@
   border-radius: 3px;
 }
 
-/* Text */
 .text {
   text-align: left;
   line-height: 1.7;
@@ -36,7 +32,6 @@
   max-width: 850px;
 }
 
-/* Lists */
 .list {
   max-width: 750px;
   line-height: 1.6;
@@ -47,7 +42,6 @@
   font-weight: 500;
 }
 
-/* Cards container */
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
@@ -55,7 +49,6 @@
   margin-top: 20px;
 }
 
-/* Individual card */
 .card {
   background: linear-gradient(145deg, #f4f4f4, #e2e2e2);
   border-radius: 18px;
@@ -82,7 +75,6 @@
   color: #666;
 }
 
-/* Buttons */
 .button-group {
   display: flex;
   justify-content: center;
