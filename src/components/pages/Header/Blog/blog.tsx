@@ -10,8 +10,7 @@ export default function Blog() {
       <GoogleTranslate />
       <div className="blog-page">
         <h1 className="coming-soon">
-          <span>Coming Soon</span>
-           <span>Coming Soon</span>
+          <span>Coming Soon</span>          
         </h1>
       </div>
       <Footer />
