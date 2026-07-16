@@ -41,6 +41,11 @@ export default function ParkedDomains() {
             answer:
                 "Absolutely. Your data is processed securely, and we follow industry best practices to protect your code and maintain privacy."
         },
+         {
+            question: "Is my source code secure?",
+            answer:
+                "Absolutely. Your data is processed securely, and we follow industry best practices to protect your code and maintain privacy."
+        },
     ];
 
     const handleClick = (index: number) => {

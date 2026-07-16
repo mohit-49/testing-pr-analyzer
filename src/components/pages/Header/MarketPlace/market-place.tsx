@@ -11,6 +11,7 @@ export default function MarketPlace() {
       <div className="market-page">
         <h1 className="coming-soon">
           <span>Coming Soon</span>
+          <span>Coming Soon</span>
         </h1>
       </div>
       <Footer />
