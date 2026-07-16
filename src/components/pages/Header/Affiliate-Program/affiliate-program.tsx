@@ -50,11 +50,7 @@ export default function AffiliateProgram() {
             answer:
                 "Your referral link includes tracking for 30 days, meaning you’ll still earn a commission if your referred user purchases within that window.",
         },  
-        {
-            question: "What if my referral doesn’t complete a purchase right away ?",
-            answer:
-                "Your referral link includes tracking for 30 days, meaning you’ll still earn a commission if your referred user purchases within that window.",
-        },        
+             
     ];
 
     const handleClick = (index: number) => {
