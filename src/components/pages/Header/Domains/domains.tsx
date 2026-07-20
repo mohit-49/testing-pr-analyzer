@@ -56,12 +56,7 @@ export default function Domains() {
       answer:
         "Selling or transferring a Web3 digital identity to someone else involves a few key steps. First, you must locate a buyer or have the recipient’s cryptocurrency wallet address. The transfer process is typically conducted through the platform or service where you registered your domain. You can initiate the transfer on these platforms by entering the recipient’s wallet address and confirming the transaction. For selling, you can list your domain on a marketplace that supports web3 digital identities or conduct a private sale, where payment and domain transfer details are arranged directly with the buyer. Once the transfer is confirmed on the blockchain, domain ownership will be successfully passed to the new owner.",
     },  
-     {
-      question: "How can I sell or transfer my Web3 digital identity to someone else ?",
-      answer:
-        "Selling or transferring a Web3 digital identity to someone else involves a few key steps. First, you must locate a buyer or have the recipient’s cryptocurrency wallet address. The transfer process is typically conducted through the platform or service where you registered your domain. You can initiate the transfer on these platforms by entering the recipient’s wallet address and confirming the transaction. For selling, you can list your domain on a marketplace that supports web3 digital identities or conduct a private sale, where payment and domain transfer details are arranged directly with the buyer. Once the transfer is confirmed on the blockchain, domain ownership will be successfully passed to the new owner.",
-    },    
-   
+       
   ];
 
   const handleClick = (index: number) => {
