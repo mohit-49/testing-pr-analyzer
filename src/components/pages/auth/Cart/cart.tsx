@@ -4,6 +4,7 @@ import GoogleTranslate from "../../common/GoogleTranslate/googleTranslate";
 import "./cart.css";
 
 export default function Cart() {
+    
     return (
         <div className="cart-wrapper">
             <GoogleTranslate />       
@@ -11,6 +12,7 @@ export default function Cart() {
                 <div className="header-left">
                     <img src="/group1-removebg-preview.png" alt="Logo" className="header-logo" />
                     <strong className="site-title">Infinity<br /><span className="site-subtitle">Domains</span></strong>
+                   
                 </div>
             </Link>
 

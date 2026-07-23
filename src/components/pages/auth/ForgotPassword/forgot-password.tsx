@@ -14,7 +14,7 @@ const ForgotPassword = (props: any) => {
     const [email, setEmail] = useState("");
     const [emailError, setEmailError] = useState("");
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-
+    console.log("hii")
     const [isLoading, setIsLoading] = useState(false);
 
     const handleEmailChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -41,7 +41,7 @@ const ForgotPassword = (props: any) => {
             return;
         }
         setIsLoading(true);
-        
+
         try {
             const object = { email };
             const response = await props.auth.forgot(object);
