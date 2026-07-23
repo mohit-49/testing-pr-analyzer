@@ -20,7 +20,6 @@ export default function Header() {
       });
     }, 2000);
   };
-console.log("settimeout")
 
   const pathname = usePathname();
   return (
