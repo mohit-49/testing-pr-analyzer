@@ -214,7 +214,6 @@ const Login = (props: any) => {
             Login with Google
           </div>
 
-          {/* wallet section untouched */}
           <div className="wallet-login">
             <button
               className="wallet-main-btn"
