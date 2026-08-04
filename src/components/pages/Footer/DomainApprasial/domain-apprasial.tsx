@@ -25,7 +25,6 @@ export default function DomainApprasial() {
             required
           />
           <button type="submit">Subscribe</button>
-          <button type="submit">Subscribe</button>
         </form>
 
       </div>

@@ -65,9 +65,7 @@ export default function VisionMission() {
             <h3>🌍 Global Reach, Local Roots</h3>
             <span>From global summits to university clubs — engagement at every level.</span>
           </div>
-
         </div>
-
       </div>
 
       <Footer />
