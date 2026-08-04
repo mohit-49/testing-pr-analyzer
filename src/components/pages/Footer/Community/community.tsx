@@ -85,7 +85,6 @@ export default function Community() {
           <button className="secondary-btn">new one</button>
           <button className="secondary-btn">new two</button>
         </div>
-
       </div>
 
       <Footer />

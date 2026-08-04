@@ -8,7 +8,6 @@ export default function AboutUs() {
         <div className="about-us-wrapper">
             <Header />
 
-            {/* Welcome Section */}
             <section className="section-part">
                 <h1>Welcome to Infinity Domains</h1>
                 <p>
@@ -20,7 +19,6 @@ export default function AboutUs() {
                 </p>
             </section>
 
-            {/* Our Journey Section */}
             <section className="section-part">
                 <h1>Our Journey</h1>
                 <p>
@@ -31,7 +29,6 @@ export default function AboutUs() {
                 </p>
             </section><br /><br />
 
-            {/* What We Have For You Cards */}
             <section>
                 <h1>What we have for you</h1>
                 <div className="cards-container">
@@ -45,7 +42,6 @@ export default function AboutUs() {
             </section><br /><br />
 
 
-            {/* Our Ecosystem & Community Section */}
             <section className="ecosystem-community">
                 <div className="eco-card">
                     <h1>Our ecosystem</h1>
@@ -68,7 +64,6 @@ export default function AboutUs() {
             </section>
 
 
-            {/* Meet The Team Section */}
             <section>
                 <h1>Meet the Team</h1>
 

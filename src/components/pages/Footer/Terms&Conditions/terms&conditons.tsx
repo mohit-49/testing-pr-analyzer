@@ -186,6 +186,11 @@ export default function TermsConditons() {
                 <p>R/O GRANVILLE CIRCUIT, TSIM TSA SUI, HK.</p>
                 <p><a href="/"><span className="span-blue">www.infinitydomains.io</span></a></p>
 
+                <h3>Infinity DOMAINS</h3>
+                <p>OPERATED BY MAGIC FLY LABS LIMITED</p>
+                <p>R/O GRANVILLE CIRCUIT, TSIM TSA SUI, HK.</p>
+                <p><a href="/"><span className="span-blue">www.infinitydomains.io</span></a></p>
+
                </div>
             </section>
             <Footer />
