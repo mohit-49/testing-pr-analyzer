@@ -97,7 +97,9 @@ const ForgotPassword = (props: any) => {
                         Send <Send size={22} />
                     </button>
 
-
+                    <a href="/auth/login" className="back-login">
+                        Back to login
+                    </a>
                     <a href="/auth/login" className="back-login">
                         Back to login
                     </a>

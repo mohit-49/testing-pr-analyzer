@@ -11,8 +11,7 @@ export default function Cart() {
             <Link href="/">
                 <div className="header-left">
                     <img src="/group1-removebg-preview.png" alt="Logo" className="header-logo" />
-                    <strong className="site-title">Infinity<br /><span className="site-subtitle">Domains</span></strong>
-                   
+                    <strong className="site-title">Infinity<br /><span className="site-subtitle">Domains</span></strong>                   
                 </div>
             </Link>
 
@@ -29,6 +28,11 @@ export default function Cart() {
 
                 <div className="step">
                     ✓ Success
+                    <div className="bar"></div>
+                </div>
+
+                <div className="step">
+                    ✓ Failed
                     <div className="bar"></div>
                 </div>
             </div>
