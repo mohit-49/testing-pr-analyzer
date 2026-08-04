@@ -70,15 +70,7 @@ export default function Event() {
                         India Devfolio Hackathons.
                     </p>
                 </div>
-                <div className="event-card">
-                    <img src="/banner/web3-identity/Manage.svg" alt="Conferences" />
-                    <h3>🔹 Global Conferences</h3>
-                    <p>
-                        Presence at major Web3 stages like Token2049, ETHDubai, Web3Conf,
-                        India Devfolio Hackathons.
-                    </p>
-                </div>
-
+                
             </section>
 
             {/* Metrics Table */}
