@@ -12,7 +12,7 @@ import { API_ENDPOINTS } from "@/components/services/endpoints";
 import axios from "axios";
 
 const Register = (props: any) => {
-  // const router = useRouter();
+  const router = useRouter();
 
   const [name, setName] = useState("");
   const [nameError, setNameError] = useState("");
