@@ -14,9 +14,9 @@ import axios from "axios";
 const Login = (props: any) => {
   const router = useRouter();
 
-  // const [email, setEmail] = useState("");
+  const [email, setEmail] = useState("");
   const [emailError, setEmailError] = useState("");
-  const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+  // const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
   const [password, setPassword] = useState("");
   const [passwordError, setPasswordError] = useState("");

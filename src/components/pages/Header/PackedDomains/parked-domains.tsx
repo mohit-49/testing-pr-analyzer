@@ -54,17 +54,7 @@ export default function ParkedDomains() {
             }
             return newSet;
         });
-    };
-    const handleClick = (index: number) => {
-        setOpenAnswers((prev) => {
-            const newSet = new Set(prev);
-            if (newSet.has(index)) {
-                newSet.delete(index);
-            } else {
-                newSet.add(index);
-            }
-            return newSet;
-        });
+    };   
     };
     // Show more button
     const handleShowMore = () => {

@@ -7,7 +7,7 @@ export default function Cart() {
     
     return (
         <div className="cart-wrapper">
-            <GoogleTranslate kl/>       
+            <GoogleTranslate />       
             <Link href="/">
                 <div className="header-left">
                     <img src="/group1-removebg-preview.png" alt="Logo" className="header-logo" />
