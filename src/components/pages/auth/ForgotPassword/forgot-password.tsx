@@ -4,7 +4,7 @@ import Link from "next/link";
 import "./forgot-password.css";
 import { Send, MailPlus } from "lucide-react";
 import GoogleTranslate from "../../common/GoogleTranslate/googleTranslate";
-// import { useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { injectModels } from "@/components/redux/injectmodels";
 import { showWarningToast, showErrorToast, showSuccessToast } from "@/components/pages/common/ToastMessages/toastUtils";
 
