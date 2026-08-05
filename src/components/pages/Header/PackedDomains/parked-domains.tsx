@@ -54,12 +54,13 @@ export default function ParkedDomains() {
             }
             return newSet;
         });
-    };   
     };
+
     // Show more button
     const handleShowMore = () => {
         setShowMore(true);
     };
+
     return (
         <div>
             <Header />
