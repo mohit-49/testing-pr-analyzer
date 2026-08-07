@@ -10,7 +10,6 @@ export default function VisionMission() {
 
       <div className="vm-container">
 
-        {/* Vision */}
         <h1 className="vm-title">🌟 Vision Statement</h1>
         <p className="vm-text">
           To empower every individual with true ownership of their digital identity through decentralized,
@@ -21,7 +20,6 @@ export default function VisionMission() {
           powerful tools for connection.
         </p><br/>
 
-        {/* Mission */}
         <h1 className="vm-title">🚀 Mission Statement</h1>
         <p className="vm-text">
           To build the most inclusive, community-powered Web3 digital identity platform that offers
@@ -31,7 +29,6 @@ export default function VisionMission() {
           build, belong, and thrive in the decentralized internet.
         </p>
 
-        {/* Cards Section */}
         <h1 className="section-heading">How we achieve this:</h1>
 
         <div className="vm-cards">
@@ -65,11 +62,8 @@ export default function VisionMission() {
             <h3>🌍 Global Reach, Local Roots</h3>
             <span>From global summits to university clubs — engagement at every level.</span>
           </div>
-
         </div>
-
       </div>
-
       <Footer />
     </div>
   );
