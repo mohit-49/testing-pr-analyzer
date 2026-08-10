@@ -10,11 +10,9 @@ export default function PrivacyPolicy() {
 
       <div className="policy-page">
 
-        {/* Title */}
         <h1 className="policy-title">Privacy Policy</h1>
         <hr className="policy-divider" />
 
-        {/* Introduction */}
         <section className="policy-section">
           <h2>Introduction</h2>
           <p>

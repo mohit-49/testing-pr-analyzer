@@ -4,7 +4,7 @@ import "./header.css";
 import { useRouter } from "next/navigation";
 import { ShoppingCart } from "lucide-react";
 import { usePathname } from "next/navigation";
-import { useTransition, useState, useEffect } from "react";
+import { useTransition, useState, } from "react";
 
 export default function Header() {
   const router = useRouter();
