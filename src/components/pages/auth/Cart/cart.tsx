@@ -29,12 +29,7 @@ export default function Cart() {
                 <div className="step">
                     ✓ Success
                     <div className="bar"></div>
-                </div>
-
-                <div className="step">
-                    ✓ Failed
-                    <div className="bar"></div>
-                </div>
+                </div>                
             </div>
 
             <div className="empty-cart">
