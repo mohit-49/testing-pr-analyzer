@@ -69,15 +69,7 @@ export default function Footer() {
           <Link href="/footer/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</Link>
           <Link href="/footer/terms-and-condition" target="_blank" rel="noopener noreferrer">Terms and Condition</Link>
         </div>
-      </div>
-      <div className="footer-bottom">
-        <span>©2026 Magic Fly Labs Limited. All rights reserved.</span>
-        <div className="footer-bottom-links">
-          <a href="mailto:support@infinitydomains">Support: support@infinitydomains</a>
-          <Link href="/footer/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</Link>
-          <Link href="/footer/terms-and-condition" target="_blank" rel="noopener noreferrer">Terms and Condition</Link>
-        </div>
-      </div>
+      </div>     
     </footer>
   );
 }
