@@ -11,10 +11,6 @@ import { showWarningToast, showErrorToast, showSuccessToast } from "@/components
 const ForgotPassword = (props: any) => {
     const router = useRouter();
 
-    const [email, setEmail] = useState("");
-    const [emailError, setEmailError] = useState("");
-    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-    const [isLoading, setIsLoading] = useState(false);
 
     const handleEmailChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const value = e.target.value.replace(/\s/g, "");

@@ -11,8 +11,8 @@ import { injectModels } from "@/components/redux/injectmodels";
 const NewPassword = (props: any) => {
   const router = useRouter();
 
-  const [newPassword, setNewPassword] = useState("");
-  const [newPasswordError, setNewPasswordError] = useState("");
+  // const [newPassword, setNewPassword] = useState("");
+  // const [newPasswordError, setNewPasswordError] = useState("");
 
   const [confirmPassword, setConfirmPassword] = useState("");
   const [confirmPasswordError, setConfirmPasswordError] = useState("");
