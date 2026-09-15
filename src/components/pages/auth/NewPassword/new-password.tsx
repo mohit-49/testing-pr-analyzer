@@ -122,22 +122,6 @@ const NewPassword = (props: any) => {
             </div>
               {newPasswordError && <p className="error">{newPasswordError}</p>}
 
-            <div className="input-box">
-              <LockKeyhole color="#51cc00" size={22} />
-              <input
-                type={showPassword ? "text" : "password"}
-                placeholder="Confirm Password"
-                value={confirmPassword}
-                onChange={handleConfirmPasswordChange}
-              />
-              <button
-                className="pw-toggle"
-                type="button"
-                onClick={() => setShowPassword(!showPassword)}
-              >
-                {showPassword ? <Eye color="#51cc00" size={20} style={{ cursor: "pointer" }} /> : <EyeOff color="#51cc00" size={20} style={{ cursor: "pointer" }} />}
-              </button>
-            </div>
             {confirmPasswordError && <p className="error">{confirmPasswordError}</p>}
 
             <button className="password-btn" type="submit" disabled={isLoading}>

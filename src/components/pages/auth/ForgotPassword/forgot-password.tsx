@@ -60,6 +60,41 @@ const ForgotPassword = (props: any) => {
             setIsLoading(false);
         }
     };
+
+
+      const handleForgot = async (e: React.FormEvent) => {
+        e.preventDefault();
+
+        if (!email) {
+            showWarningToast("Please fill input fields")
+            return;
+        }
+        if (!emailRegex.test(email)) {
+            setEmailError("Please enter a valid email address");
+            return;
+        }
+        setIsLoading(true);
+
+        try {
+            const object = { email };
+            const response = await props.auth.forgot(object);
+
+
+            if (response?.success) {
+                showSuccessToast("Forgot successfully Check your email for verification");
+                setTimeout(() => {
+                    router.push("/auth/newPassword");
+                }, 1500);
+            } else {
+                showErrorToast("This email already exists")
+            }
+        } catch (err: any) {
+            showErrorToast("Something went wrong")
+        } finally {
+            setIsLoading(false);
+        }
+    };
+    
     return (
         <div className="forgot-container">
             <GoogleTranslate />

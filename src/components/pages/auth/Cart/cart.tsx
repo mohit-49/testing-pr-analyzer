@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import GoogleTranslate from "../../common/GoogleTranslate/googleTranslate";
+// import GoogleTranslate from "../../common/GoogleTranslate/googleTranslate";
 import "./cart.css";
 
 export default function Cart() {

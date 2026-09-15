@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
-import { NationLanguages } from './languages'
+// import { NationLanguages } from './languages'
 import "./google-translate.css";
 
 declare global {

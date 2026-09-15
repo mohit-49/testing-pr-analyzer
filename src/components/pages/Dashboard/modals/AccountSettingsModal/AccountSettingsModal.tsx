@@ -12,9 +12,9 @@ const AccountSettingsModal = ({
 }: any) => {
   if (!open) return null;
 
-  const avatarUrl = profile?.avatar
-    ? `${BACKEND_URL}/${profile.avatar}`
-    : "/users/avatar.png";
+  // const avatarUrl = profile?.avatar
+  //   ? `${BACKEND_URL}/${profile.avatar}`
+  //   : "/users/avatar.png";
 
   return (
     <div className="settings-overlay">

@@ -17,8 +17,8 @@ const Register = (props: any) => {
   const [name, setName] = useState("");
   const [nameError, setNameError] = useState("");
 
-  const [role, setRole] = useState("");
-  const [roleError, setRoleError] = useState("");
+  // const [role, setRole] = useState("");
+  // const [roleError, setRoleError] = useState("");
 
   const [email, setEmail] = useState("");
   const [emailError, setEmailError] = useState("");
