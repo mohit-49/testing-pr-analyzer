@@ -1,0 +1,13 @@
+LOGO_CONFIG = {
+    "front": {
+        "team_logo": {
+            "file": "team_logo.svg",
+            "box": NormalizedBox(0.15, 0.13, 0.09, 0.09)
+        },
+        "sponsor_logo": {
+            "file": "sponsor_logo.svg",
+            "box": NormalizedBox(0.75, 0.13, 0.12, 0.07)
+        },
+    },
+    ...
+}
