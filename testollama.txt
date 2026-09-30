@@ -1,0 +1,1 @@
+this file added to check the ollama service is working or not
