@@ -1,0 +1,1 @@
+add a ollama file for testing the mail in case of ollama service is stop
